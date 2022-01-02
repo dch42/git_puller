@@ -21,7 +21,7 @@ If repos live outside cwd, an explicit path can be set at `$1`:
 ~~~
 ./git_puller ~/path_to/repos
 ~~~
-
+### Output
 ~~~
 Updating ./git_puller/...
 Already up to date.
