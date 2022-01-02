@@ -5,10 +5,8 @@ Shell script to automatically update local git repositories.
 
 Clone the repo and `chmod +x` the script:
 ~~~
-git clone https://github.com/dch42/git_puller.git && cd ./git_puller
+git clone https://github.com/dch42/git_puller.git && cd ./git_puller && chmod +x ./git_puller
 ~~~
-
-Add exectutible permissions with `chmod +x ./git_puller`
 
 ## Usage
 
