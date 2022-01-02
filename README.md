@@ -1,9 +1,22 @@
 # git_puller
 Shell script to automatically update local git repositories.
 
-# Usage
+## Installation
 
-When invoked with no arguments, it will walk the current directory searching for git repos.
+Clone the repo and `chmod +x` the script:
+~~~
+git clone https://github.com/dch42/git_puller.git && cd ./git_puller
+~~~
+
+Add exectutible permissions with `chmod +x ./git_puller`
+
+## Usage
+
+When invoked with no arguments, it will walk the current directory searching for git repos and attempt to perform a `git pull`.
+
+~~~
+./git_puller
+~~~
 
 If repos live outside cwd, an explicit path can be set at `$1`:
 
